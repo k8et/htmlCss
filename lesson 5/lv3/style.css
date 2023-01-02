@@ -1,0 +1,14 @@
+.box1 {
+    background-image: repeating-linear-gradient(to bottom, green 10% ,white 10% 20%, green 20% 30%);
+    width: 100px;
+    height: 100px;
+}.box2 {
+     background: linear-gradient(to top left, black 20%, #c7c7c7 10% 80%, black 10% 40%);
+     width: 100px;
+     height: 100px;
+ }
+ .box3{
+     background: radial-gradient(circle,red 20%,black 20% 60%);
+     width: 100px;
+     height: 100px;
+ }

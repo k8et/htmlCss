@@ -1,0 +1,431 @@
+.container{
+
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+}
+.vector{
+    display: flex;
+    align-items: center;
+}
+.vectorTheBox{
+    display: flex;
+    width: 900px ;
+    height: 100%;
+}
+.buttonDiv{
+    display: flex;
+    justify-content: space-around;
+    width: 800px;
+}
+.buttonHeader{
+    transition:0.5s ;
+    background-color: white;
+    border: none;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #14171F;
+}
+.buttonHeader:hover{
+   color: orange;
+}
+.TheBox{
+    font-family: "Work Sans";
+    font-style: italic;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #2947A9;
+}
+.center {
+    display: flex;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.9) 16.58%, rgba(255, 255, 255, 0) 72.38%), url(image.png) no-repeat;
+    width: 100%;
+    height: 90vh;
+
+}
+.side1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+.side2{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+}
+.side1Text{
+    width: 50%;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 84px;
+}
+.boxSide2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: #3559C7;
+    width: 416px;
+    height: 150px;
+}
+.boxSide3{
+    display: flex;
+    justify-content: flex-end;
+    width: 416px;
+    height: 40px;
+}
+.asideBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #292E3D;
+    border-right: #cccccc 1px solid;
+    width: 208px;
+    height: 40px;
+}
+.bsideBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #292E3D;
+    width: 208px;
+    height: 40px;
+
+}
+.boxSide2Text1{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color:#FFFFFF;
+}
+.boxSide2Text2 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.svgasideBox1{
+    height: 26px;
+}
+.svgasideBox2{
+    height: 26px;
+}
+.asideBoxText{
+    border: none;
+    background-color: transparent;
+    color: #FFFFFF;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 433px;
+}
+.reputationContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 152px;
+}
+.reputationTitle{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+}
+.cardContainer{
+    display: flex;
+    justify-content: space-around;
+    width: 1000px;
+    height: 281px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    border: 1.4px solid #E0E3EB;
+    border-radius: 4px;
+    width: 292px;
+    height: 197px;
+}
+.svgPosition,.cardTitle,.cardText{
+    margin-top: 11px;
+    margin-left: 21px;
+}
+.cardTitle{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #3D445C;
+}
+.cardText{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #858EAD;
+}
+.container3{
+    background-color: #F6F8F7;
+    width: 100%;
+    height: 608px;
+}
+.servicePosition{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+}
+.serviceTitle{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color:#292E3D;
+}
+.serviceContainerCard{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 50%;
+    height:508px;
+}
+.serviceCard{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 37px -2px rgba(17, 24, 39, 0.05);
+    border-radius: 4px;
+    width: 271px;
+    height: 181px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.servicePositionCard{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height:508px;
+}
+.serviceLine{
+    margin-top: 20px;
+    width: 60px;
+    height: 2px;
+    background-color: #cccccc;
+}
+.serviceCardText{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #2947A9;
+}
+.serviceCard1{
+    background: #2947A9;
+    box-shadow: 0px 0px 37px -2px rgba(17, 24, 39, 0.05);
+    border-radius: 4px;
+    width: 271px;
+    height: 181px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.serviceCardText1{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.container4{
+    display: flex;
+    flex-direction: column;
+    background: #F6F8F7;
+    width: 100%;
+    height: 632px;
+}
+.container4Title{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    height: 102px;
+}
+.container4Text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 68px;
+}
+.c4Title{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #292E3D;
+}
+.c4Text{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #292E3D;
+}
+.inputNameMail{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 64px;
+}
+.inputReasonPhone{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 78px;
+}
+#name{
+    background: #FFFFFF;
+    border: 1px solid #E0E3EB;
+    border-radius: 4px;
+    padding-left: 8px;
+    margin-right: 16px;
+    height: 41px;
+    width: 206px;
+}
+#email{
+    background: #FFFFFF;
+    border: 1px solid #E0E3EB;
+    padding-left: 8px;
+    border-radius: 4px;
+    margin-left: 16px;
+    height: 41px;
+    width: 206px;
+}
+.place{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+#reason{
+    background: #FFFFFF;
+    border: 1px solid #E0E3EB;
+    border-radius: 4px;
+    padding-left: 8px;
+    margin-right: 16px;
+    height: 41px;
+    width: 206px;
+}
+#phone{
+    background: #FFFFFF;
+    border: 1px solid #E0E3EB;
+    padding-left: 8px;
+    border-radius: 4px;
+    margin-left: 16px;
+    height: 41px;
+    width: 206px;
+}
+.inputMassage{
+    display: flex;
+    justify-content: center;
+    margin-top: -25px;
+    width: 100%;
+    height: 167px;
+}
+textarea{
+    resize: none;
+    padding-top: 10px;
+    padding-left: 8px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    width: 465px;
+    height: 135px;
+}
+.indicates{
+    display: flex;
+    justify-content: center;
+    height: 23px;
+    width: 84%;
+}
+.indicatesText{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #667299;
+    height: 15px;
+    margin-top: -1px;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+}
+.buttonSubmit{
+    background: #2947A9;
+    border-radius: 2px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    height: 40px;
+    width: 200px;
+    color: #FFFFFF;
+}
+
+
+
+
+

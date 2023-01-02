@@ -1,0 +1,17 @@
+body{
+    margin-right: 500px;
+    margin-left: 500px;
+}
+.left {
+    float: left;
+    margin: 5px 10px 5px 0px;
+}
+.up{
+    float: right;
+    margin: 0px 10px 5px 10px;
+}
+p {
+    font-family: "Times New Roman";
+    font-weight: 600;
+    text-align: justify;
+}

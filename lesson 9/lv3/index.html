@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+<form>
+  <div>
+    <fieldset>
+      <legend>Контактная информация</legend>
+      <p><label for="name">Имя <em>*</em></label><input type="text" id="name"></p>
+      <p><label for="email">E-mail</label><input type="email" id="email"></p>
+      <p><label for="number">Телефон</label><input type="text" id="number"></p>
+      <p><label class="country">Страны</label>
+        <select class="select">
+          <option value="Denmark">Denmark</option>
+          <option value="Djibouti">Djibouti</option>
+          <option value="Dominica">Dominica</option>
+          <option value="Dominican Republic">Dominican Republic</option>
+          <option value="Ecuador">Ecuador</option>
+          <option value="Egypt">Egypt</option>
+          <option value="El Salvador">El Salvador</option>
+          <option value="Equatorial Guinea">Equatorial Guinea</option>
+          <option value="Eritrea">Eritrea</option>
+          <option value="Estonia">Estonia</option>
+          <option value="Ethiopia">Ethiopia</option>
+          <option value="Falkland Islands (Malvinas)">Falkland Islands (Malvinas)</option>
+          <option value="Faroe Islands">Faroe Islands</option>
+          <option value="Fiji">Fiji</option>
+          <option value="Finland">Finland</option>
+          <option value="France">France</option>
+          <option value="French Guiana">French Guiana</option>
+          <option value="French Polynesia">French Polynesia</option>
+          <option value="French Southern Territories">French Southern Territories</option>
+        </select>
+      </p>
+      <p><label class="text">Текст</label><textarea placeholder="..."></textarea></p>
+      <p><label class="container">One
+        <input type="checkbox" checked="checked">
+        <span class="checkmark"></span>
+      </label></p>
+      <p><label class="container">Two
+        <input type="checkbox" checked="checked">
+        <span class="checkmark"></span>
+      </label></p>
+      <p><label class="container">Three
+        <input type="checkbox" checked="checked">
+        <span class="checkmark"></span>
+      </label></p>
+    </fieldset>
+    <p><input type="submit" value="Отправить"></p>
+  </div>
+</form>

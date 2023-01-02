@@ -1,0 +1,26 @@
+#greycol {
+    color: grey;
+}
+p ~ p {
+    color: green;
+}
+.yellow {
+    color: yellow;
+}
+link + h3 {
+    color: pink;
+}
+p2  {
+    color: red;
+}
+#text {
+    color: blue}
+p ~ p {color: red
+}
+div + h3 ~ p {
+    color: green
+}
+div + h2 {
+    color: blue
+}
+

@@ -1,0 +1,21 @@
+body :nth-child(1) {
+    color:pink;
+}
+#greycol {
+    color: grey;
+}
+.yellow {
+    color: yellow;
+}
+body + h3 {
+    color: pink;
+}
+div ~ div {
+    color: red;
+}
+.pink {
+    color: pink;
+}
+p ~ p {
+    color: green;
+}

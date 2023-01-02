@@ -1,0 +1,30 @@
+li {
+    list-style: none;
+}
+.green {
+    color: green;
+}
+ul li:nth-child(odd){
+    font-size: 1rem;
+}
+ul li:nth-child(even){
+    font-size: 1.2em;
+
+}
+ul li:nth-child(3n+1){
+    background-color: yellow;
+}
+li:before{
+    content: "-";
+}
+a {
+    text-decoration: none
+}
+ul li :hover {
+    color: blue;
+}
+
+
+
+
+

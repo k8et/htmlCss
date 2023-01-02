@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+<h1 class="title">
+  <span>text</span>
+</h1> <!-- h1.title>span{text} -->
+
+<div class="box1">
+  <h1></h1>
+</div>
+<div class="box2">
+  <h2></h2>
+</div> <!-- (div.box1>h1)+div.box2>h2-->
+
+<div id="footer">
+  <h1>Title<h1>
+    <p>text</p>
+</div> <!--div#footer>h1{Title}+p{text}-->
+
+<ul class="menu">
+    <li class="menu-item"><a href="#"></a></li>
+    <li class="menu-item"><a href="#"></a></li>
+    <li class="menu-item"><a href="#"></a></li>
+</ul> <!--ul.menu>(li.menu-item>a)+(li.menu-item>a)+(li.menu-item>a)-->
+
+</body>
+</html>

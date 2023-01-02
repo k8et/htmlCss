@@ -1,0 +1,11 @@
+.bg-box {
+    background:
+            url("https://www.freeiconspng.com/uploads/grass-png-images-pictures-transparent-28.png")  bottom  / 15% repeat-x ,
+            url("https://www.freeiconspng.com/uploads/lamp-png-0.png") top / 4% repeat-x,
+            url("https://www.pngall.com/wp-content/uploads/11/Donut-PNG-Image.png") right / 3% repeat-y,
+            url("https://drive.google.com/file/d/1nf_5LKikPnDTrr38kGX2kQt8tlGlSENs/view"),
+            url("https://vignette.wikia.nocookie.net/mashaandthebear/images/e/e0/%D0%81%D0%B6%D0%B8%D0%BA.png/revision/latest?cb=20180209130328&path-prefix=ru") left  / 3% repeat-y,
+            url("https://img2.goodfon.ru/wallpaper/big/0/5b/pole-zelen-trava-dom-derevya.jpg") center / 596px 380px  no-repeat #067b09 ;
+    width: 1900px;
+    height: 960px;
+}

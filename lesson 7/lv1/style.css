@@ -1,0 +1,27 @@
+.red, .blue, .orange {
+    position: absolute;
+}
+
+.red {
+    top: 200px;
+    left: 150px;
+    background: green;
+}
+
+.blue {
+    z-index: 1;
+    top: 100px;
+    left: 80px;
+    background: blue;
+}
+
+.green {
+    background: red;
+}
+
+
+div {
+    height: 1z50px;
+    width: 150px;
+
+}
